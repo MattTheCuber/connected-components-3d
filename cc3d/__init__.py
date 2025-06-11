@@ -73,7 +73,7 @@ def dust(
   connectivity:Literal[4,6,8,18,26] = 26,
   in_place:bool = False,
   binary_image:bool = False,
-  precomputed_ccl:bool = False,
+  precomputed_ccl:bool = None,
   invert:bool = False,
   return_N:bool = False,
 ) -> Union[NDArray[Any],tuple[NDArray[Any],int]]:
